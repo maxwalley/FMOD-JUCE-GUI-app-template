@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="FCfbMi" name="FMOD JUCE GUI App Template" projectType="guiapp"
+              jucerVersion="5.4.5">
+  <MAINGROUP id="cegrki" name="FMOD JUCE GUI App Template">
+    <GROUP id="{AAE6C7DD-CA68-DF82-658E-2BFBA3989C4C}" name="Source">
+      <FILE id="AWmq8z" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="DRsIRN" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="bdOiKx" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" externalLibraries="fmodL&#10;fmodstudioL">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" libraryPath="${PROJECT_DIR}/dependencies/studio/lib&#10;${PROJECT_DIR}/dependencies/core/lib"
+                       headerPath="${PROJECT_DIR}/dependencies/studio/inc&#10;${PROJECT_DIR}/dependencies/core/inc"
+                       customXcodeFlags="LD_RUNPATH_SEARCH_PATHS = &quot;@executable_path/../Libs&quot;"/>
+        <CONFIGURATION isDebug="0" name="Release" libraryPath="${PROJECT_DIR}/dependencies/studio/lib&#10;${PROJECT_DIR}/dependencies/core/lib"
+                       headerPath="${PROJECT_DIR}/dependencies/studio/inc&#10;${PROJECT_DIR}/dependencies/core/inc"
+                       customXcodeFlags="LD_RUNPATH_SEARCH_PATHS = &quot;@executable_path/../Libs&quot;"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../C++ Libs and Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../C++ Libs and Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../C++ Libs and Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../C++ Libs and Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../C++ Libs and Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../C++ Libs and Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../C++ Libs and Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../C++ Libs and Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../C++ Libs and Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../C++ Libs and Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../C++ Libs and Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../C++ Libs and Frameworks/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
